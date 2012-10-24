@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.name          = "filepicker"
   gem.version       = Filepicker::VERSION
   gem.authors       = ["Suan-Aik Yeo"]
-  gem.email         = ["syeo@enova.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["yeosuanaik@gmail.com"]
+  gem.description   = %q{Ruby client to the filepicker.io API}
+  gem.summary       = %q{Ruby client to the filepicker.io API}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
