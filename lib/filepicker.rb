@@ -1,7 +1,7 @@
 require "filepicker/version"
 
 module Filepicker
-  def self.getFileContents(fpurl)
+  def self.get_file_contents(fpurl)
     uri = URI.parse(fpurl)
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
