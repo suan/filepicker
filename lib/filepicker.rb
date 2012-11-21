@@ -1,4 +1,5 @@
 require "filepicker/version"
+require 'net/http'
 
 module Filepicker
   def self.get_file_contents(fpurl)
